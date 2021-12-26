@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="BTL.css">
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar">
+            <img height="20" src="data:image/png;base64,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" alt="">
+          <a class="navbar-brand" href="BTL.html">Gmail</a>
+        </div>
+          
+          
+            <form class="d-flex">
+                <button class="btn1">Dành cho công việc</button>
+                <button class="btn2">Đăng nhập</button>
+                <button class="btn3">Tạo tài khoản</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+
+  <main class="container mt-5">
+    <div class="main_about row">
+        <div class="col-md-6">
+          <h1 class="text1" >Email bảo mật, thông minh và dễ sử dụng</h1>
+          <p class="text2">
+            Hoàn thành nhiều việc hơn khi có Gmail. Gmail nay đã tích hợp Google Chat, Google Meet và nhiều ứng dụng khác, tất cả đều ở cùng một nơi.
+          </p>
+         <a href="https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=SignUp" ><button class="btn3" >Tạo tài khoản </button></a> 
+          <a href="https://workspace.google.com/products/gmail/index.html?utm_source=gmailforwork&utm_medium=et&utm_campaign=global-xsell-website-ft-gmail_for_work_googleworkspacelink&utm_content=forwork"><button class="btn1">Dành cho công việc</button></a>              
+            
+        </div>
+        <div class="col-md-6">
+          <img src="https://lh3.googleusercontent.com/wu38duO7lcEY0BCo6qTkwcrOx5oFwFNLHRYud6POTb-URmZ2jlXHLq5PAUFGCUcVew7zCK-C4aNKuMSF-SQxU-5Vu4fjM_E2WWp-S_Y=rw-e365-w2880" alt="" class="img-fluid rounded">
+        </div>
+    </div>
+
+    <main class="container mt-5">
+      <div class="main_about row">
+          <div class="col-md-6">
+            <h1 class="text3" >Email bảo mật, riêng tư và luôn nằm trong quyền kiểm soát của bạn</h1>
+            <h5>Chúng tôi tuyệt đối không sử dụng nội dung trong Gmail của bạn cho mục đích quảng cáo</h5>
+            <p class="text2">Gmail sử dụng phương thức mã hóa hàng đầu trong ngành cho tất cả thư bạn nhận được và gửi đi. Chúng tôi tuyệt đối không sử dụng nội dung trong Gmail của bạn cho mục đích phân phối quảng cáo phù hợp với từng cá nhân.</p>
+            
+
+
+              
+          </div>
+          <div class="col-md-6">
+            <img src="https://lh3.googleusercontent.com/lNMxGwrGks-L5zXteIhUCICFEZaGLvMtjnZGGBd8MllJkOdPw3auDnZ0cGV_qAJdeWjw2spcXUbEaANzlt-gWI2plgzn4SiWFD_kcuk=rw-e365-w2880" alt="" class="img-fluid rounded">
+          </div>
+      </div>
+
+
+    <div class="row mt-5">
+      <div class="column">
+        <img  height="45" src="data:image/png;base64,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" alt="">
+        <h3>Làm việc với các công cụ khác</h3>
+          <p>Gmail hoạt động tốt với các ứng dụng trên máy tính để bàn như Microsoft Outlook, Apple Mail và Mozilla Thunderbird, đi kèm cả tính năng đồng bộ danh bạ và sự kiện.</p>
+      </div>
+    
+      <div class="column">
+        <img height="45" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSeK2EKbS97MGLKNYGOwqY-3V2f1vjeuBPXg&usqp=CAU" alt="">
+        <h3>Luôn làm việc hiệu quả, ngay cả khi không có mạng</h3>
+          <p>Gmail ngoại tuyến cho phép bạn đọc, trả lời, xóa và tìm kiếm thư trong Gmail khi không kết nối với Internet.</p>
+      </div>
+    
+      <div class="column">
+        <img height="45" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnT6-tN3VwL8dMBJ46Ck_Q268_fIHrwaQHdECGEX14nkmsl_lw5QdLQ0Yb1z-mmla58iE&usqp=CAU" alt="">
+        <h3>Trải nghiệm Gmail trên mọi thiết bị</h3>
+          <p>Gmail luôn đơn giản và dễ sử dụng, dù sử dụng trên thiết bị nào</p>
+      </div>
+    </div>
+    
+</body>
+</html>
