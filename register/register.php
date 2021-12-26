@@ -43,6 +43,7 @@
                 <tr>
                     <td>
                         Giới tính :
+
                     </td>
                     <td>
                         <select name="txtSex">

@@ -1,6 +1,6 @@
 <?php
  // Create connection
-  $conn = mysqli_connect("localhost", "root", "", "anv_project_gmail");
+  include ('connection.php');
  global $conn;
     // Nếu không phải là sự kiện đăng ký thì không xử lý
     if (!isset($_POST['txtUsername'])){
