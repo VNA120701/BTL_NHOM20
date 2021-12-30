@@ -23,7 +23,7 @@
     }
           
         // Mã khóa mật khẩu
-        $password = md5($password);
+        $password = mdg5($password);
           
     //Kiểm tra tên đăng nhập này đã có người dùng chưa
     if (mysqli_num_rows(mysqli_query($conn,"SELECT name FROM user_account WHERE name='$username'")) > 0){
